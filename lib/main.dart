@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
           title: 'Sayur Mayur si Tegar',
           theme: ThemeData(
             primarySwatch: Colors.blue,
+            
           ),
           home: const Home(),
         );

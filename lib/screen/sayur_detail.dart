@@ -137,7 +137,7 @@ class SayurDetail extends StatelessWidget {
                     onTap: () async {
                       final pesan = Uri.encodeComponent(
                           'Hi Tegar Sayur,Saya mau order $sayurname untuk hari ini, apa bisa diantar kerumah?');
-                      final uri = Uri.parse('https://wa.me/628123456789?text=$pesan');
+                      final uri = Uri.parse('https://wa.me/6285262246669?text=$pesan');
                       await launchUrl(uri, mode: LaunchMode.externalApplication);
                   },
                   child: Row(
